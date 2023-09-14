@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden
     
 }
 
@@ -72,7 +73,7 @@ li, a {
     color: white;
 }
 
-button {
+.content-left button {
     display: flex;
     align-items: center;
     padding-top: 8px;
@@ -143,11 +144,59 @@ button {
     color: white;
     margin-top: -45px;
     padding: 70px ;
+    font-size: 20px;
 }
 
 .footer {
+    display: flex;
     text-align: center;
+    justify-content: center;
     background-color: rgb(38, 36, 36);
     color: white;
-    padding: 10px
+    padding: 16px
+}
+
+.main-mid {
+    margin: 0px -200px;
+    padding: 35px 230px;
+    background: transparent;
+    font-size: 36px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.main-mid h2 {
+    color: white;
+    text-align: right;
+}
+
+.main-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 16px;
+    padding: 32px;
+    padding-right: 66px;
+    padding-left: 66px;
+    margin: 100px
+}
+
+.main-left {
+    text-align: center;
+}
+
+.buttonlast {
+    display: flex;
+    align-self: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border-radius: 16px;
+    margin-left: 50px;
+    font-size: 18px;
+    background-color: rgb(197, 94, 197);
+    border: rgb(197, 94, 197);
+    color: white;
 }
